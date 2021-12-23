@@ -1,0 +1,22 @@
+<div class="container">
+    <table class="table table-striped">
+         <thead>
+             <tr>
+                 <th>Resident</th>
+                 <th>Age</th>
+                 <th>Product Name</th>
+                 <th>Vaccine</th>
+                 <th>Date</th>
+             </tr>  
+            </thead>
+            <tbody>
+               <tr *ngFor="let resident of resident">    
+                <th>{{resident.name}}</th>
+                <th>{{resident.age}}</th> 
+                <th>{{resident.productname}}</th>
+                <th>{{resident.vaccine}}</th> 
+                <th>{{resident.date}}</th>
+                </tr>     
+            </tbody> 
+        </table>
+</div>
